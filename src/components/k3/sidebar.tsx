@@ -13,12 +13,14 @@ import {
   Users,
   Settings,
   BarChart3,
-  Bell
+  Bell,
+  Cpu
 } from 'lucide-react'
 
 const navigation = [
   { name: 'Dashboard', href: '/', icon: LayoutDashboard },
   { name: 'SafeGuard', href: '/safeguard', icon: Activity },
+  { name: 'Simulation', href: '/simulation', icon: Cpu },
   { name: 'EnviroSense', href: '/envirosense', icon: Wind },
   { name: 'SiteSecure', href: '/sitesecure', icon: ShieldCheck },
   { name: 'Alerts', href: '/alerts', icon: Bell },
